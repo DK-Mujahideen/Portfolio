@@ -1,0 +1,721 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mohamed Mujahideen Azad | Developer Portfolio</title>
+
+    <meta name="description" content="Portfolio of Mohamed Mujahideen Azad, a second-year Information Technology student at MSAJCE, Chennai, aspiring full-stack developer.">
+
+    <meta name="keywords" content="Mohamed Mujahideen Azad, portfolio, web developer, HTML, CSS, JavaScript, MSAJCE">
+
+    <meta name="author" content="Mohamed Mujahideen Azad">
+    <meta name="theme-color" content="#080b16">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background decoration -->
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <!-- NAVBAR -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">
+                M<span>.</span>MA
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#tools" class="nav-link">Tools</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+
+                <button class="theme-toggle" id="themeToggle"
+                    aria-label="Toggle light and dark theme">
+                    <i class="fa-solid fa-sun"></i>
+                </button>
+
+                <a href="#contact" class="nav-cta">
+                    Let's Talk <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+
+                <button class="menu-toggle" id="menuToggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero section" id="home">
+            <div class="container hero-container">
+
+                <div class="hero-content reveal">
+
+                    <div class="availability">
+                        <span class="status-dot"></span>
+                        Open to Internship Opportunities
+                    </div>
+
+                    <p class="hero-greeting">HELLO, I'M</p>
+
+                    <h1>
+                        Mohamed<br>
+                        <span class="gradient-text">Mujahideen Azad.</span>
+                    </h1>
+
+                    <h2 class="hero-role">
+                        I'm an <span id="typingText"></span><span class="cursor">|</span>
+                    </h2>
+
+                    <p class="hero-description">
+                        A second-year Information Technology student passionate
+                        about building modern web experiences and exploring
+                        the world of full-stack development.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            View Projects
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <a href="resume.pdf" class="btn btn-outline" download>
+                            Download Resume
+                            <i class="fa-solid fa-download"></i>
+                        </a>
+                    </div>
+
+                    <div class="hero-socials">
+                        <a href="https://github.com/DK-Mujahideen/"
+                           target="_blank" rel="noopener noreferrer"
+                           aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/mohamed-mujahideen-azad/"
+                           target="_blank" rel="noopener noreferrer"
+                           aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+
+                        <a href="mailto:muja1311@gmail.com"
+                           aria-label="Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hero visual -->
+                <div class="hero-visual reveal">
+
+                    <div class="orbit orbit-one"></div>
+                    <div class="orbit orbit-two"></div>
+
+                    <div class="profile-card">
+                        <div class="profile-card-top">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <p>developer.js</p>
+                        </div>
+
+                        <div class="code-content">
+                            <p><span class="code-purple">const</span>
+                                developer = {</p>
+                            <p class="indent">
+                                name: <span class="code-green">
+                                "Mujahideen"</span>,
+                            </p>
+                            <p class="indent">
+                                role: <span class="code-green">
+                                "Web Developer"</span>,
+                            </p>
+                            <p class="indent">
+                                learning: <span class="code-orange">
+                                "Full Stack"</span>,
+                            </p>
+                            <p class="indent">
+                                passion: <span class="code-green">
+                                "Building things"</span>
+                            </p>
+                            <p>};</p>
+
+                            <p class="code-comment">
+                                // Always learning. Always building.
+                            </p>
+
+                            <div class="code-bottom">
+                                <span><i class="fa-solid fa-circle"></i> Available</span>
+                                <span>100% Curious</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="floating-badge badge-html">
+                        <i class="fa-brands fa-html5"></i> HTML
+                    </div>
+
+                    <div class="floating-badge badge-js">
+                        <i class="fa-brands fa-js"></i> JavaScript
+                    </div>
+
+                    <div class="floating-badge badge-css">
+                        <i class="fa-brands fa-css3-alt"></i> CSS
+                    </div>
+
+                </div>
+
+            </div>
+
+            <a href="#about" class="scroll-indicator">
+                <span>SCROLL TO EXPLORE</span>
+                <i class="fa-solid fa-arrow-down"></i>
+            </a>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="section about-section" id="about">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-label">GET TO KNOW ME</span>
+                    <h2>About <span class="gradient-text">Me</span></h2>
+                    <p>A little introduction about who I am.</p>
+                </div>
+
+                <div class="about-grid">
+
+                    <div class="about-text glass-card reveal">
+                        <h3>Hey there! 👋</h3>
+
+                        <p>
+                            I'm Mohamed Mujahideen Azad, a second-year
+                            B.E. Information Technology student at
+                            Mohamed Sathak A.J. College of Engineering,
+                            Chennai.
+                        </p>
+
+                        <p>
+                            I have a growing interest in web development
+                            and enjoy creating simple, useful projects
+                            using HTML, CSS and JavaScript. I'm also
+                            familiar with the basics of React and Git.
+                        </p>
+
+                        <p>
+                            Currently, I'm focused on improving my
+                            development skills, exploring full-stack
+                            technologies and building projects that
+                            help me gain practical experience.
+                        </p>
+
+                        <p>
+                            My goal is to become a full-stack developer,
+                            secure an internship and prepare for
+                            exciting placement opportunities.
+                        </p>
+                    </div>
+
+                    <div class="about-info reveal">
+
+                        <div class="info-card glass-card">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <div>
+                                <h4>Education</h4>
+                                <p>B.E. Information Technology</p>
+                                <span>Second Year · MSAJCE</span>
+                            </div>
+                        </div>
+
+                        <div class="info-card glass-card">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Chennai, Tamil Nadu</p>
+                                <span>India</span>
+                            </div>
+                        </div>
+
+                        <div class="info-card glass-card">
+                            <i class="fa-solid fa-bullseye"></i>
+                            <div>
+                                <h4>Career Goal</h4>
+                                <p>Full Stack Developer</p>
+                                <span>Internships & Placements</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section class="section" id="skills">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-label">WHAT I KNOW</span>
+                    <h2>My <span class="gradient-text">Skills</span></h2>
+                    <p>Technologies I'm currently familiar with.</p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card glass-card reveal">
+                        <i class="fa-brands fa-html5 skill-icon html"></i>
+                        <h3>HTML5</h3>
+                        <p>Semantic structure</p>
+                        <span class="skill-level">Familiar</span>
+                    </div>
+
+                    <div class="skill-card glass-card reveal">
+                        <i class="fa-brands fa-css3-alt skill-icon css"></i>
+                        <h3>CSS3</h3>
+                        <p>Styling & layouts</p>
+                        <span class="skill-level">Familiar</span>
+                    </div>
+
+                    <div class="skill-card glass-card reveal">
+                        <i class="fa-brands fa-js skill-icon js"></i>
+                        <h3>JavaScript</h3>
+                        <p>Core fundamentals</p>
+                        <span class="skill-level">Familiar</span>
+                    </div>
+
+                    <div class="skill-card glass-card reveal">
+                        <i class="fa-brands fa-react skill-icon react"></i>
+                        <h3>React</h3>
+                        <p>Component basics</p>
+                        <span class="skill-level">Basic</span>
+                    </div>
+
+                    <div class="skill-card glass-card reveal">
+                        <i class="fa-brands fa-git-alt skill-icon git"></i>
+                        <h3>Git</h3>
+                        <p>Version control</p>
+                        <span class="skill-level">Familiar</span>
+                    </div>
+
+                    <div class="skill-card glass-card reveal">
+                        <i class="fa-brands fa-github skill-icon github"></i>
+                        <h3>GitHub</h3>
+                        <p>Repositories & collaboration</p>
+                        <span class="skill-level">Familiar</span>
+                    </div>
+
+                </div>
+
+                <!-- Learning skills are separate -->
+                <div class="learning-section reveal">
+
+                    <div class="learning-title">
+                        <i class="fa-solid fa-book-open"></i>
+                        <h3>Currently Learning</h3>
+                    </div>
+
+                    <p>
+                        Technologies and concepts I'm exploring to
+                        improve my development skills.
+                    </p>
+
+                    <div class="learning-tags">
+                        <span>Responsive Design</span>
+                        <span>Node.js</span>
+                        <span>Tailwind CSS</span>
+                        <span>Advanced JavaScript</span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- TOOLS SECTION -->
+        <section class="section tools-section" id="tools">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-label">MY WORKSPACE</span>
+                    <h2>Tools I <span class="gradient-text">Use</span></h2>
+                    <p>Tools that help me develop and create.</p>
+                </div>
+
+                <div class="tools-grid">
+
+                    <div class="tool-item glass-card reveal">
+                        <i class="fa-solid fa-code"></i>
+                        <span>VS Code</span>
+                    </div>
+
+                    <div class="tool-item glass-card reveal">
+                        <i class="fa-brands fa-github"></i>
+                        <span>GitHub</span>
+                    </div>
+
+                    <div class="tool-item glass-card reveal">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        <span>Antigravity</span>
+                    </div>
+
+                    <div class="tool-item glass-card reveal">
+                        <i class="fa-brands fa-chrome"></i>
+                        <span>Chrome DevTools</span>
+                    </div>
+
+                    <div class="tool-item glass-card reveal">
+                        <i class="fa-brands fa-figma"></i>
+                        <span>Figma</span>
+                    </div>
+
+                    <div class="tool-item glass-card reveal">
+                        <i class="fa-solid fa-cloud-arrow-up"></i>
+                        <span>Netlify</span>
+                    </div>
+
+                    <div class="tool-item glass-card reveal">
+                        <i class="fa-brands fa-git-alt"></i>
+                        <span>Git</span>
+                    </div>
+
+                    <div class="tool-item glass-card reveal">
+                        <i class="fa-solid fa-terminal"></i>
+                        <span>Terminal</span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-label">WHAT I'VE BUILT</span>
+                    <h2>My <span class="gradient-text">Projects</span></h2>
+                    <p>A few projects from my development journey.</p>
+                </div>
+
+                <div class="projects-grid">
+
+                    <!-- Project 1 -->
+                    <article class="project-card glass-card reveal">
+
+                        <div class="project-preview resume-preview">
+                            <div class="mini-browser">
+                                <div class="browser-dots">
+                                    <span></span><span></span><span></span>
+                                </div>
+                                <div class="resume-mockup">
+                                    <div class="resume-line title-line"></div>
+                                    <div class="resume-line"></div>
+                                    <div class="resume-line short"></div>
+                                    <div class="resume-divider"></div>
+                                    <div class="resume-line"></div>
+                                    <div class="resume-line short"></div>
+                                    <div class="resume-line"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-content">
+                            <div class="project-top">
+                                <span class="project-number">01 / WEBSITE</span>
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+
+                            <h3>Resume Website</h3>
+
+                            <p>
+                                A simple personal resume website designed
+                                to present educational details, skills and
+                                personal information in a structured layout.
+                            </p>
+
+                            <div class="tech-stack">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                            </div>
+
+                            <div class="project-buttons">
+                                <a href="#" class="btn btn-small btn-primary"
+                                   target="_blank">Live Demo</a>
+                                <a href="#" class="btn btn-small btn-outline"
+                                   target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card glass-card reveal">
+
+                        <div class="project-preview calculator-preview">
+                            <div class="calculator-mockup">
+                                <div class="calc-display">123 + 456</div>
+                                <div class="calc-grid">
+                                    <span>AC</span><span>÷</span><span>×</span><span>−</span>
+                                    <span>7</span><span>8</span><span>9</span><span>+</span>
+                                    <span>4</span><span>5</span><span>6</span><span>=</span>
+                                    <span>1</span><span>2</span><span>3</span><span>0</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-content">
+                            <div class="project-top">
+                                <span class="project-number">02 / WEB APP</span>
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+
+                            <h3>Calculator</h3>
+
+                            <p>
+                                A basic interactive calculator that performs
+                                common arithmetic operations with a clean
+                                and straightforward user interface.
+                            </p>
+
+                            <div class="tech-stack">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <div class="project-buttons">
+                                <a href="#" class="btn btn-small btn-primary"
+                                   target="_blank">Live Demo</a>
+                                <a href="#" class="btn btn-small btn-outline"
+                                   target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Future Project 1 -->
+                    <article class="project-card glass-card reveal">
+
+                        <div class="project-preview future-preview">
+                            <i class="fa-solid fa-layer-group"></i>
+                            <span>PROJECT 03</span>
+                            <span class="coming-tag">Coming Soon</span>
+                        </div>
+
+                        <div class="project-content">
+                            <div class="project-top">
+                                <span class="project-number">03 / UPCOMING</span>
+                                <i class="fa-solid fa-hourglass-half"></i>
+                            </div>
+
+                            <h3>Full Stack Web Application</h3>
+
+                            <p>
+                                An upcoming project focused on exploring
+                                front-end and back-end development,
+                                data handling and application functionality.
+                            </p>
+
+                            <div class="tech-stack">
+                                <span>React</span>
+                                <span>Node.js</span>
+                            </div>
+
+                            <div class="project-buttons">
+                                <a href="#" class="btn btn-small btn-primary">Live Demo</a>
+                                <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Future Project 2 -->
+                    <article class="project-card glass-card reveal">
+
+                        <div class="project-preview future-preview second-future">
+                            <i class="fa-solid fa-code-branch"></i>
+                            <span>PROJECT 04</span>
+                            <span class="coming-tag">Coming Soon</span>
+                        </div>
+
+                        <div class="project-content">
+                            <div class="project-top">
+                                <span class="project-number">04 / UPCOMING</span>
+                                <i class="fa-solid fa-hourglass-half"></i>
+                            </div>
+
+                            <h3>Creative Web Project</h3>
+
+                            <p>
+                                A future project where I'll experiment
+                                with interactive interfaces, responsive
+                                layouts and modern web technologies.
+                            </p>
+
+                            <div class="tech-stack">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <div class="project-buttons">
+                                <a href="#" class="btn btn-small btn-primary">Live Demo</a>
+                                <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-label">GET IN TOUCH</span>
+                    <h2>Let's <span class="gradient-text">Connect</span></h2>
+                    <p>Have an opportunity or just want to say hello?</p>
+                </div>
+
+                <div class="contact-grid">
+
+                    <div class="contact-info reveal">
+
+                        <h3>Let's build something together.</h3>
+
+                        <p>
+                            I'm interested in internship opportunities,
+                            collaborations and connecting with fellow
+                            developers. Feel free to reach out!
+                        </p>
+
+                        <a href="mailto:YOUR_EMAIL@example.com" class="contact-link">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>
+                                <small>Email</small>
+                                YOUR_EMAIL@example.com
+                            </span>
+                        </a>
+
+                        <a href="https://linkedin.com/in/YOUR_USERNAME"
+                           target="_blank" rel="noopener noreferrer"
+                           class="contact-link">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <span>
+                                <small>LinkedIn</small>
+                                Connect with me
+                            </span>
+                        </a>
+
+                        <a href="https://github.com/YOUR_USERNAME"
+                           target="_blank" rel="noopener noreferrer"
+                           class="contact-link">
+                            <i class="fa-brands fa-github"></i>
+                            <span>
+                                <small>GitHub</small>
+                                View my repositories
+                            </span>
+                        </a>
+
+                        <a href="https://wa.me/YOUR_PHONE_NUMBER"
+                           target="_blank" rel="noopener noreferrer"
+                           class="contact-link">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <span>
+                                <small>WhatsApp</small>
+                                Message me
+                            </span>
+                        </a>
+
+                    </div>
+
+                    <!-- Form opens the visitor's email application -->
+                    <form class="contact-form glass-card reveal" id="contactForm">
+
+                        <h3>Send a Message</h3>
+
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name"
+                            placeholder="Enter your name" required>
+
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email"
+                            placeholder="Enter your email" required>
+
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message"
+                            rows="5" placeholder="Write your message..."
+                            required></textarea>
+
+                        <button type="submit" class="btn btn-primary form-submit">
+                            Send Message
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+
+                        <p class="form-note" id="formNote">
+                            Your email application will open to send the message.
+                        </p>
+
+                    </form>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <a href="#home" class="logo">
+                M<span>.</span>MA
+            </a>
+
+            <p>
+                Designed & built by Mohamed Mujahideen Azad.
+            </p>
+
+            <p class="copyright">
+                © <span id="year"></span> All rights reserved.
+            </p>
+
+        </div>
+    </footer>
+
+    <!-- Scroll to top -->
+    <button id="scrollTop" class="scroll-top"
+        aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
